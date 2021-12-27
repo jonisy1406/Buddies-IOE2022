@@ -177,7 +177,7 @@ if processing_type =='Data Visualization':
         time_series = st.sidebar.checkbox('Time - Series')
         colormap_quiver = st.sidebar.checkbox('Colormap & Quiver')
         if time_series:
-            plot_timeseries(df_wind,'Wind','mag','wind speed(m)')
+            plot_timeseries(df_wind,'Wind','mag','wind speed(m/s)')
         if colormap_quiver :
             period_time('wind')
         
