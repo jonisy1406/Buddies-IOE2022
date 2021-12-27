@@ -149,7 +149,7 @@ def line_plot2(df,title):
                     xanchor="left",
                     x=0.01)
                       )
-    fig.update_xaxes(title_text='Dates')
+    fig.update_xaxes(title_text='Time')
     fig.update_yaxes(range=[0,2.5],title_text='SWH (m)')
     col2.plotly_chart(fig)   
 
