@@ -151,7 +151,7 @@ def line_plot2(df,title):
                       )
     fig.update_xaxes(title_text='Time')
     fig.update_yaxes(range=[0,2.5],title_text='SWH (m)')
-    col2.plotly_chart(fig)   
+    col4.plotly_chart(fig)   
 
 #sidebar menu
 st.sidebar.title('Navigation')
@@ -186,9 +186,9 @@ if processing_type =='Data Prediction':
     with st.sidebar:
         sp=st.selectbox("Choose you want to know", ["Prediction for 1 days", "Prediction for 2 days", "Prediction for 3 days"])
     st.header('Data Prediction')
-    col1,col2 = st.columns((1,2))
-    col1.markdown("<p style='text-align: left; color: black; font-size:24px'>Model Information</p>", unsafe_allow_html=True)
-    col1.dataframe(im, width=1000, height=1800)
+    col3,col4 = st.columns((1,2))
+    col3.markdown("<p style='text-align: left; color: black; font-size:24px'>Model Information</p>", unsafe_allow_html=True)
+    col3.dataframe(im, width=1000, height=1800)
 
     if sp=="Prediction for 1 days":
       title="Prediction for 1 Days"
