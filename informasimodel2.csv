@@ -1,0 +1,7 @@
+0,0
+Data source,CMWF ERA-5 monthly average spatial
+Data length,1979 - 2020
+Data interval,3 hours
+Model,ANN (Artificail Neural Network)
+RMSE testing,0.0104
+R2 testing,0.993
