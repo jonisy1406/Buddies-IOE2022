@@ -34,11 +34,6 @@ stat_wind = pd.read_csv(Path(__file__).parents[0] / 'dataframe/descriptive_stati
 df_swh = pd.read_csv(Path(__file__).parents[0] / 'dataframe/df_swh.csv',index_col=0)
 df_wind = pd.read_csv(Path(__file__).parents[0] / 'dataframe/df_wind.csv',index_col=0)
 
-#datapredict
-#path1='E:/Python/eddies/ioe2022/p1hari.csv'
-#path2='E:/Python/eddies/ioe2022/p2hari.csv'
-#path3='E:/Python/eddies/ioe2022/p3hari.csv'
-#data_dir5='E:/Python/eddies/ioe2022/informasimodel2.csv'
 
 df1=pd.read_csv(Path(__file__).parents[0] / 'p1hari.csv')
 df2=pd.read_csv(Path(__file__).parents[0] / 'p2hari.csv')
