@@ -38,7 +38,7 @@ df_wind = pd.read_csv(Path(__file__).parents[0] / 'dataframe/df_wind.csv',index_
 df1=pd.read_csv(Path(__file__).parents[0] / 'p1hari.csv')
 df2=pd.read_csv(Path(__file__).parents[0] / 'p2hari.csv')
 df3=pd.read_csv(Path(__file__).parents[0] / 'p3hari.csv')
-im=pd.read_csv(Path(__file__).parents[0] / 'informasimodel2.csv' , index_col=0)
+im=pd.read_csv(Path(__file__).parents[0] / 'informasimodel2.csv' , header=None)
 
 
 def data_view(area,meta,stat):
