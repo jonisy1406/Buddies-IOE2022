@@ -187,6 +187,7 @@ if processing_type =='Data Prediction':
     with st.sidebar:
         sp=st.selectbox("Choose you want to know", ["Prediction for 1 days", "Prediction for 2 days", "Prediction for 3 days"])
     st.header('Data Prediction')
+    st.write('
     col3,col4 = st.columns((1,2))
     col3.markdown("<p style='text-align: left; color: black; font-size:24px'>Model Information</p>", unsafe_allow_html=True)
     col3.dataframe(im, width=1000, height=1800)
