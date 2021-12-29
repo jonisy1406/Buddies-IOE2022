@@ -163,7 +163,7 @@ if processing_type =='Summary Statistics':
 
 if processing_type =='Data Visualization':
     st.header('Data Visualization')
-    st.write('Please check the box in navigation bar to show and customize the visualization result')
+    st.write('Please check the box in navigation bar to show and customize the visualization result.')
     st.sidebar.markdown("## Data Visualization")
     data_type = st.sidebar.selectbox("data type", ['SWH', 'Wind'])
     if data_type == 'SWH':
@@ -184,7 +184,6 @@ if processing_type =='Data Visualization':
         
 if processing_type =='Data Prediction':
     st.sidebar.markdown("## SWH Prediction")
-    st.write('Please check the box in navigation bar to show and customize the visualization result')
     with st.sidebar:
         sp=st.selectbox("Choose you want to know", ["Prediction for 1 days", "Prediction for 2 days", "Prediction for 3 days"])
     st.header('Data Prediction')
