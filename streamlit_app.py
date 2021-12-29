@@ -50,11 +50,11 @@ def data_view(area,meta,stat):
         st.subheader('Metadata')
         st.dataframe(meta)
     
-    st.subheader('Statistic Descriptive')
+    st.subheader('Statistics Descriptive')
     st.dataframe(stat)
 
 def data_overview():
-    st.header('Summary Statistic')
+    st.header('Summary Statistics')
     data_type = st.selectbox("data type", ['SWH', 'Wind'])
     if data_type == 'SWH':
         data_view(area_swh,meta_swh,stat_swh)
