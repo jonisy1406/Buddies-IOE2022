@@ -187,7 +187,7 @@ if processing_type =='Data Prediction':
     with st.sidebar:
         sp=st.selectbox("Choose you want to know", ["Prediction for 1 day", "Prediction for 2 days", "Prediction for 3 days"])
     st.header('Data Prediction')
-    st.write('==')
+    st.write('This prediction is created to see the condition of mean wave height spatially in WPP-RI 711. Therefore, machine learning model input is the result of mean spatial data of ERA5.')
     col3,col4 = st.columns((1,2))
     col3.markdown("<p style='text-align: left; color: black; font-size:24px'>Model Information</p>", unsafe_allow_html=True)
     col3.dataframe(im, width=1000, height=1800)
