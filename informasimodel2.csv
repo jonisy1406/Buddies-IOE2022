@@ -1,5 +1,5 @@
 Variable,Information
-Data source,CMWF ERA-5 monthly average spatial
+Data source,ECMWF ERA-5
 Data length,1979 - 2020
 Data interval,3 hours
 Model,ANN (Artificial Neural Network)
